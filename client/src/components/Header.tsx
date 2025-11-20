@@ -87,7 +87,7 @@ export default function Header() {
               </Link>
               <div className="flex items-center gap-2 text-primary pt-2">
                 <Phone className="w-5 h-5" />
-                <span className="font-semibold">03-1234567</span>
+                <span className="font-semibold">053-3030931</span>
               </div>
             </nav>
           </div>
