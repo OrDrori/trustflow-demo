@@ -37,7 +37,7 @@ export default function DonorDashboard() {
         <div className="text-center mb-12">
           <Heart className="w-16 h-16 mx-auto mb-4 text-secondary" />
           <h1 className="text-4xl font-bold mb-4">💚 דשבורד תורמים</h1>
-          <p className="text-xl text-muted-foreground">עזור לנפגעי Medical Smile - כל תרומה עוברת ישירות לקליניקה</p>
+          <p className="text-xl text-muted-foreground">עזור לנפגעי Medical Smile - כל תרומה עוברת ישירות למנהלי המאבק</p>
         </div>
 
         <div className="flex gap-3 mb-8 justify-center flex-wrap">
