@@ -26,8 +26,8 @@ export default function Home() {
                 </Button>
               </Link>
               <Link href="/transparency">
-                <Button size="lg" variant="outline" className="bg-white text-primary hover:bg-white/90 text-lg px-8 py-6">
-                  🔍 דשבורד שקיפות
+                <Button size="lg" variant="outline" className="bg-white text-primary hover:bg-white/90 text-lg px-8 py-6" asChild>
+                  <span>🔍 דשבורד שקיפות</span>
                 </Button>
               </Link>
             </div>
