@@ -71,8 +71,8 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <Card className="p-6 text-center bg-card hover:shadow-lg transition-shadow">
               <FileText className="w-10 h-10 mx-auto mb-3 text-primary" />
-              <div className="text-4xl font-bold text-primary mb-2">0 - עדיין בהרצה</div>
-              <div className="text-sm text-muted-foreground">תיקים שטופלו</div>
+              <div className="text-4xl font-bold text-primary mb-2">₪0</div>
+              <div className="text-sm text-muted-foreground">כספים שנתרמו מאנשי חסד ואור</div>
             </Card>
             <Card className="p-6 text-center bg-card hover:shadow-lg transition-shadow">
               <Heart className="w-10 h-10 mx-auto mb-3 text-secondary" />
