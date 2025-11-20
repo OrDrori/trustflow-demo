@@ -14,10 +14,10 @@ export default function Home() {
               <Hospital className="w-16 h-16 mx-auto mb-4" />
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              🏥 מרכז רשמי להגשת תביעות וסיוע
+              🏥 מרכז רשמי להגשת תביעות וסיוע לנפגעי מדיקל סמייל
             </h1>
             <p className="text-xl md:text-2xl mb-8 opacity-95">
-              מערכת ממשלתית לטיפול בנפגעי Medical Smile | מאובטח ומוצפן
+              מערכת אזרחית לטיפול בנפגעי Medical Smile | מאובטח וחסוי
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/submit-claim">
@@ -50,7 +50,7 @@ export default function Home() {
               <CheckCircle className="w-12 h-12 mx-auto mb-4 text-secondary" />
               <h3 className="font-bold text-lg mb-2">מאושר רשמית</h3>
               <p className="text-muted-foreground">
-                בפיקוח משרד הבריאות ורשות התחרות
+                בפיקוח מובילי האור של ישראל
               </p>
             </Card>
             <Card className="p-6 text-center hover:shadow-lg transition-shadow">
@@ -71,22 +71,23 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <Card className="p-6 text-center bg-card hover:shadow-lg transition-shadow">
               <FileText className="w-10 h-10 mx-auto mb-3 text-primary" />
-              <div className="text-4xl font-bold text-primary mb-2">1,247</div>
+              <div className="text-4xl font-bold text-primary mb-2">0 - עדיין בהרצה</div>
               <div className="text-sm text-muted-foreground">תיקים שטופלו</div>
             </Card>
             <Card className="p-6 text-center bg-card hover:shadow-lg transition-shadow">
               <Heart className="w-10 h-10 mx-auto mb-3 text-secondary" />
-              <div className="text-4xl font-bold text-secondary mb-2">₪2.4M</div>
-              <div className="text-sm text-muted-foreground">תרומות שנאספו</div>
+              <div className="text-4xl font-bold text-secondary mb-2">₪600,000</div>
+              <div className="text-sm text-muted-foreground">יעד ראשוני לאיסוף</div>
             </Card>
             <Card className="p-6 text-center bg-card hover:shadow-lg transition-shadow">
               <Users className="w-10 h-10 mx-auto mb-3 text-accent" />
-              <div className="text-4xl font-bold text-accent mb-2">892</div>
+              <div className="text-4xl font-bold text-accent mb-2">300</div>
               <div className="text-sm text-muted-foreground">נפגעים שקיבלו טיפול</div>
             </Card>
             <Card className="p-6 text-center bg-card hover:shadow-lg transition-shadow">
               <Hospital className="w-10 h-10 mx-auto mb-3 text-primary" />
-              <div className="text-4xl font-bold text-primary mb-2">34</div>
+              <div className="text-2xl font-bold text-primary mb-2">0 - בהרצה</div>
+              <div className="text-xs text-muted-foreground mb-2">(ממתינים לקליניקות שיירשמו ויציעו את שירותם)</div>
               <div className="text-sm text-muted-foreground">קליניקות שותפות</div>
             </Card>
           </div>
@@ -141,8 +142,8 @@ export default function Home() {
       {/* Call to Action */}
       <section className="py-16 bg-secondary text-secondary-foreground">
         <div className="container text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">זקוק לסיוע רפואי דחוף?</h2>
-          <p className="text-xl mb-8 opacity-95">הגש תיק עכשיו וקבל מענה תוך 48 שעות</p>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">זקוקים לסיוע רפואי דחוף?</h2>
+          <p className="text-xl mb-8 opacity-95">הגישו פנייה עכשיו וקבלו מענה תוך 48 שעות</p>
           <Link href="/submit-claim">
             <Button size="lg" className="bg-white text-secondary hover:bg-white/90 text-lg px-10 py-6 font-bold">
               התחל הגשת תיק ➜

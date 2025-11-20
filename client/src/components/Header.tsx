@@ -19,8 +19,8 @@ export default function Header() {
                 </svg>
               </div>
               <div>
-                <h1 className="text-xl font-bold text-primary">מרכז התגובה למשברים</h1>
-                <p className="text-xs text-muted-foreground">TrustFlow</p>
+                <h1 className="text-xl font-bold text-primary">מערכת אור חדש - עזרה לנפגעי חברת ״מדיקל סמייל״</h1>
+                <p className="text-xs text-muted-foreground">מערכת בגרסת TrustFlow - נבנה ע״י אור דרורי</p>
               </div>
             </div>
           </Link>
@@ -48,7 +48,7 @@ export default function Header() {
           <div className="hidden md:flex items-center gap-4">
             <div className="flex items-center gap-2 text-primary">
               <Phone className="w-5 h-5" />
-              <span className="font-semibold">03-1234567</span>
+              <span className="font-semibold">053-3030931</span>
             </div>
             <Link href="/submit-claim">
               <Button className="bg-secondary hover:bg-secondary/90">
