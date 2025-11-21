@@ -1,0 +1,7 @@
+{
+  "buildCommand": "cd client && pnpm install && pnpm exec vite build",
+  "outputDirectory": "client/dist",
+  "devCommand": "cd client && pnpm exec vite --port $PORT",
+  "installCommand": "pnpm install",
+  "framework": null
+}
