@@ -52,3 +52,9 @@
 - [ ] פרסום האתר
 - [ ] הגדרת subdomain תחת justice4all.co.il
 - [ ] חיבור Cloudflare DNS
+- [x] פרסום האתר והשגת URL ייצור (Vercel)
+- [x] חיפוש Zone ID של justice4all.co.il ב-Cloudflare
+- [x] יצירת CNAME record ל-smileback.justice4all.co.il
+- [x] הגדרת דומיין מותאם אישית ב-Vercel
+- [ ] בדיקה סופית על הדומיין החי
+- [ ] תיקון page title המציג %VITE_APP_TITLE% במקום כותרת אמיתית
